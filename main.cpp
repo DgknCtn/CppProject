@@ -30,6 +30,29 @@ cin>>secim;
 cout<<endl;
 if(secim==1)
 {
-    
+    cout<<"Para Yatirma İslemine Hos Geldiniz"<<endl<<endl;
+    cout<<"Paranizi Yerlestiriniz"<<endl<<endl;
+    cout<<"Yatirilan Tutari Onayliyor Musunuz? E? H?"<<endl<<endl;
+cin>>onay;
+
+if(onay=="e")
+{
+    cout<<"Para Yatiriliyor..."<<endl;
+    cout<<"Kartinizi Almayi Unutmayin"<<endl;
+}
+else if(onay=="h")
+{
+    cout<<"İslem İptal Edildi"<<endl;
+    cout<<"Kartiniz İade Ediliyor"<<endl;
+}
+else
+{
+    cout<<"Hata"<<endl;
+    cout<<"Kart İade Ediliyor"<<endl;
+}
+}
+
+else if(secim==2)
+
 }
 }
