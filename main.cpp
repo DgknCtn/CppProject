@@ -16,6 +16,7 @@ int main()
 	string teyit;
 
 for(i=1; i<=5; i++)
+{
 	cout << "** BANKAMİZA HOSGELDİNİZ **" << endl << endl;
 	cout << "Sifre Giriniz" << endl;
 	cin >> sifre;
@@ -113,4 +114,6 @@ else if(secim==3)
 else
 {
     cout<<"Sifre Yanlis"<<endl;
+}
+}
 }
